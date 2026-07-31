@@ -13,13 +13,24 @@
 	<!-- Header -->
 	<header id="header">
 		<div class="inner">
+
 			<a class="image avatar">
 				<img src="images/photo_bsp.jpeg" alt="T & R" />
 			</a>
 
 			<h1>
-				<strong>Wir heiraten!</strong><br />
+				<strong>T & R</strong><br />
+				<span data-i18n="header_text">
+					Unsere Hochzeit
+				</span>
 			</h1>
+
+			<div id="language-switcher">
+				<button onclick="changeLanguage('de')">🇩🇪</button>
+				<button onclick="changeLanguage('en')">🇬🇧</button>
+				<button onclick="changeLanguage('tr')">🇹🇷</button>
+			</div>
+
 		</div>
 	</header>
 
@@ -27,141 +38,231 @@
 	<!-- Main -->
 	<div id="main">
 
+
 		<!-- Willkommen -->
 		<section id="one">
+
 			<header class="major">
-				<h2>Schön, dass ihr da seid!</h2>
+				<h2 data-i18n="welcome_title">
+					Schön, dass ihr da seid!
+				</h2>
 			</header>
 
-			<p>
+			<p data-i18n="welcome_text">
 				Wir freuen uns sehr, diesen besonderen Tag mit euch zu feiern.
 				Hier findet ihr alle wichtigen Informationen rund um unsere Hochzeit.
 			</p>
+
 		</section>
 
 
-		<!-- Hochzeitstag -->
+
+		<!-- Details -->
 		<section id="details">
+
 			<header class="major">
-				<h2>Der große Tag</h2>
+				<h2 data-i18n="details_title">
+					Der große Tag
+				</h2>
 			</header>
 
 			<p>
-				<strong>Datum:</strong> XX.XX.XXXX<br />
-				<strong>Ort:</strong> Hochzeitslocation<br />
-				<strong>Beginn:</strong> XX:XX Uhr
+				<strong data-i18n="date_label">Datum:</strong>
+				XX.XX.2026<br />
+
+				<strong data-i18n="location_label">Ort:</strong>
+				Hochzeitslocation<br />
+
+				<strong data-i18n="start_label">Beginn:</strong>
+				XX:XX Uhr
 			</p>
 
-			<p>
+			<p data-i18n="details_text">
 				Wir freuen uns darauf, gemeinsam mit euch zu feiern,
 				zu essen, zu lachen und viele schöne Erinnerungen zu sammeln.
 			</p>
+
 		</section>
+
 
 
 		<!-- Ablauf -->
 		<section id="schedule">
+
 			<header class="major">
-				<h2>Tagesablauf</h2>
+				<h2 data-i18n="schedule_title">
+					Tagesablauf
+				</h2>
 			</header>
 
 			<ul>
-				<li><strong>XX:XX Uhr:</strong> Trauung</li>
-				<li><strong>XX:XX Uhr:</strong> Empfang</li>
-				<li><strong>XX:XX Uhr:</strong> Essen & Feier</li>
-				<li><strong>XX:XX Uhr:</strong> Party</li>
+				<li data-i18n="schedule_1">
+					XX:XX Uhr – Trauung
+				</li>
+
+				<li data-i18n="schedule_2">
+					XX:XX Uhr – Empfang
+				</li>
+
+				<li data-i18n="schedule_3">
+					XX:XX Uhr – Essen & Feier
+				</li>
+
+				<li data-i18n="schedule_4">
+					XX:XX Uhr – Party
+				</li>
 			</ul>
+
 		</section>
+
+
 
 
 		<!-- Anfahrt -->
 		<section id="anfahrt">
+
 			<header class="major">
-				<h2>Anfahrt</h2>
+				<h2 data-i18n="route_title">
+					Anfahrt
+				</h2>
 			</header>
 
-			<p>
+			<p data-i18n="route_text">
 				Hier findet ihr Informationen zur Anreise und den Standort
 				unserer Hochzeitslocation.
 			</p>
+
 
 			<div class="image main">
 				<img src="images/anfahrtsskizze_bsp.jpg" alt="Karte zur Hochzeitslocation" />
 			</div>
 
+
 			<p>
-				<strong>Adresse:</strong><br />
-				Straße und Hausnummer<br />
-				PLZ Ort
+				<strong data-i18n="address_label">
+					Adresse:
+				</strong>
+				<br />
+
+				[Straße und Hausnummer]<br />
+				[PLZ Ort]
 			</p>
+
 		</section>
+
+
+
 
 
 		<!-- Übernachtung -->
 		<section id="overnight">
+
 			<header class="major">
-				<h2>Übernachtung</h2>
+				<h2 data-i18n="overnight_title">
+					Übernachtung
+				</h2>
 			</header>
 
-			<p>
+			<p data-i18n="overnight_text">
 				Für Gäste, die von weiter weg anreisen, haben wir hier
 				Übernachtungsmöglichkeiten in der Nähe gesammelt.
 			</p>
 
+
 			<ul>
 				<li>
 					<strong>Hotel Name</strong><br />
-					Adresse / Link
+					[Adresse / Link]
 				</li>
+
 				<li>
 					<strong>Hotel Name</strong><br />
-					Adresse / Link
+					[Adresse / Link]
 				</li>
 			</ul>
+
 		</section>
+
+
+
 
 
 		<!-- Kontakt -->
 		<section id="contact">
+
 			<header class="major">
-				<h2>Fragen & Kontakt</h2>
+				<h2 data-i18n="contact_title">
+					Fragen & Kontakt
+				</h2>
 			</header>
 
-			<p>
+
+			<p data-i18n="contact_text">
 				Ihr habt Fragen zur Hochzeit, zur Anfahrt oder zur Unterkunft?
 				Meldet euch gerne bei uns.
 			</p>
 
+
 			<p>
 				<strong>T & R</strong><br />
+
 				<a href="mailto:yettobe@created.me">
 					yettobe@created.me
 				</a>
+
 			</p>
+
 		</section>
+
 
 	</div>
 
 
+
+
+
 	<!-- Footer -->
 	<footer id="footer">
+
 		<div class="inner">
 
 			<ul class="icons">
+
 				<li>
-					<a href="mailto:yettobe@created.me" class="icon solid fa-envelope">
-						<span class="label">Email</span>
+					<a href="mailto:yettobe@created.me"
+					   class="icon solid fa-envelope">
+
+						<span class="label">
+							Email
+						</span>
+
 					</a>
 				</li>
+
 			</ul>
 
+
 			<ul class="copyright">
-				<li>&copy; 2026 T & R</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+
+				<li>
+					&copy; 2026 T & R
+				</li>
+
+				<li>
+					Design:
+					<a href="http://html5up.net">
+						HTML5 UP
+					</a>
+				</li>
+
 			</ul>
 
 		</div>
+
 	</footer>
+
+
+
 
 
 	<!-- Scripts -->
@@ -171,6 +272,10 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+
+	<!-- Language -->
+	<script src="assets/js/language.js"></script>
+
 
 </body>
 </html>
