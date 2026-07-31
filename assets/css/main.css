@@ -3232,3 +3232,36 @@ input, select, textarea {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+#language-switcher {
+	margin-top: 25px;
+	display: flex;
+	gap: 8px;
+}
+
+#language-switcher button {
+	border: 1px solid rgba(255,255,255,0.4);
+	background: rgba(255,255,255,0.08);
+	color: inherit;
+	border-radius: 20px;
+
+	padding: 6px 14px;
+
+	font-size: 0.8em;
+	font-weight: 600;
+	letter-spacing: 1px;
+
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+#language-switcher button:hover {
+	background: rgba(255,255,255,0.25);
+	border-color: rgba(255,255,255,0.8);
+	transform: translateY(-1px);
+}
+
+#language-switcher button:active {
+	transform: translateY(0);
+}
